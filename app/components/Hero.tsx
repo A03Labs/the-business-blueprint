@@ -21,12 +21,6 @@ export function Hero({ onApplyClick, onViewFlierClick }: HeroProps) {
           {/* Left Column: Core Message & Value Badges */}
           <div className="lg:col-span-7 flex flex-col space-y-6 sm:space-y-8 text-left animate-fade-in-up">
             {/* Cohort Eyebrow Tag */}
-            <div className="inline-flex flex-wrap items-center gap-1.5 sm:gap-2 self-start px-3 sm:px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200/80 text-[11px] sm:text-xs font-semibold text-slate-700 hover:bg-slate-200/70 transition-colors">
-              <span className="w-2 h-2 rounded-full bg-orange-600 animate-pulse" />
-              <span className="text-orange-700 font-bold uppercase tracking-wider">Commencing January 2027</span>
-              <span className="text-slate-300 hidden sm:inline">•</span>
-              <span className="text-slate-600 font-medium">Closed Cohort for 10 Businesses</span>
-            </div>
 
             {/* Master Headline */}
             <div className="space-y-3 sm:space-y-4">
@@ -93,7 +87,7 @@ export function Hero({ onApplyClick, onViewFlierClick }: HeroProps) {
             </div>
 
             {/* Trust points */}
-            <div className="flex flex-wrap items-center gap-x-5 sm:gap-x-6 gap-y-2 text-xs text-slate-500 font-medium pt-1">
+            <div className="hidden sm:flex flex-wrap items-center gap-x-5 sm:gap-x-6 gap-y-2 text-xs text-slate-500 font-medium pt-1">
               <div className="flex items-center gap-1.5">
                 <CheckCircleIcon className="w-4 h-4 text-emerald-600 shrink-0" />
                 <span>Physical 2-Day Strategy Intensive</span>

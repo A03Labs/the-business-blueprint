@@ -154,7 +154,7 @@ export function ModulesSection() {
                 <div className="lg:col-span-7 space-y-5 sm:space-y-6">
                   <div>
                     <span className={`text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full border ${modules[activeTab].pillColor}`}>
-                      Module {modules[activeTab].id} • {modules[activeTab].tagline}
+                      Module {modules[activeTab].id}
                     </span>
                   </div>
 
